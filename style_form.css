@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Graduate', serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url('./img/foto11.jpg') center/cover no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixaForm{
+    width: 50vw;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0,0, 0.2);
+    
+}
+
+
+
+.btn-outline-primary{
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 70px;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+#datanasc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.area{
+    padding: 5px;
+}
+
+.dataNascimento{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 0;
+}
+
+.caixinha{
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+
+}
+
+.btn{
+    margin-right: 150px;
+}
