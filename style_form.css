@@ -66,3 +66,16 @@ body{
 .btn{
     margin-right: 150px;
 }
+.btn button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn button:hover {
+    background-color: darkblue;
+}
